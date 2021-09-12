@@ -1,0 +1,826 @@
+Here is the only thing I can find in the log on the Easy Villagers mod:
+
+[11Sep2021 18:39:51.058] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://maxhenkel.de/update/easy_villagers.json
+[11Sep2021 18:39:51.811] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: UP_TO_DATE Current: 1.16.5-1.0.11 Target: null
+
+Here is my whole log:
+
+[11Sep2021 18:39:25.047] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.0, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[11Sep2021 18:39:25.052] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_91 by Oracle Corporation
+[11Sep2021 18:39:25.065] [main/WARN] [cpw.mods.modlauncher.SecureJarHandler/]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
+[11Sep2021 18:39:25.364] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[11Sep2021 18:39:25.397] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/TheMi/Desktop/McStuff/Server/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[11Sep2021 18:39:26.880] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [shetiphian.core.mixins.MixinConnector]
+[11Sep2021 18:39:26.881] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.botania.common.MixinConnector]
+[11Sep2021 18:39:26.883] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[11Sep2021 18:39:26.889] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[11Sep2021 18:39:34.183] [main/INFO] [Puzzles Lib/]: Registering element diagonalfences:diagonal_fences
+[11Sep2021 18:39:34.699] [modloading-worker-8/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.0, for MC 1.16.5 with MCP 20210115.111550
+[11Sep2021 18:39:34.740] [modloading-worker-12/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.WaterEffect as a FluidEffect for Water with the ID 0
+[11Sep2021 18:39:34.744] [modloading-worker-8/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.0 Initialized
+[11Sep2021 18:39:34.744] [modloading-worker-12/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.LavaEffect as a FluidEffect for Lava with the ID 1
+[11Sep2021 18:39:35.003] [modloading-worker-3/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[11Sep2021 18:39:35.097] [modloading-worker-6/INFO] [Puzzles Lib/]: Setting up 1 element for mod diagonalfences...
+[11Sep2021 18:39:35.259] [modloading-worker-10/INFO] [team.chisel.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[11Sep2021 18:39:35.412] [modloading-worker-1/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:69]: # schematics: 5
+[11Sep2021 18:39:37.260] [Hats Hat Reader Thread/INFO] [me.ichun.mods.hats.common.Hats/]: Loaded 488 files. 213 hats, 275 accessories.
+[11Sep2021 18:39:43.690] [main/INFO] [com.polyvalord.extlights.Extlights/]: HELLO from Register Block
+[11Sep2021 18:39:45.501] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Blocks registered!
+[11Sep2021 18:39:45.541] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `spawner`, expected `spawnermod`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:45.813] [main/INFO] [Spartan Shields/]: Registering Items
+[11Sep2021 18:39:45.814] [main/INFO] [Spartan Shields/]: Registered Items successfully!
+[11Sep2021 18:39:46.084] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 269 ms
+[11Sep2021 18:39:46.170] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Items registered!
+[11Sep2021 18:39:46.206] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/melee_damage.json, path: /data/bloodmagic/anointment/melee_damage.json
+[11Sep2021 18:39:46.213] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/holy_water.json, path: /data/bloodmagic/anointment/holy_water.json
+[11Sep2021 18:39:46.214] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/hidden_knowledge.json, path: /data/bloodmagic/anointment/hidden_knowledge.json
+[11Sep2021 18:39:46.215] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/quick_draw.json, path: /data/bloodmagic/anointment/quick_draw.json
+[11Sep2021 18:39:46.215] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/bow_power.json, path: /data/bloodmagic/anointment/bow_power.json
+[11Sep2021 18:39:46.221] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/arrow_protect.json, path: /data/bloodmagic/living_armor/arrow_protect.json
+[11Sep2021 18:39:46.226] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/fall_protect.json, path: /data/bloodmagic/living_armor/fall_protect.json
+[11Sep2021 18:39:46.227] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/physical_protect.json, path: /data/bloodmagic/living_armor/physical_protect.json
+[11Sep2021 18:39:46.228] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/jump.json, path: /data/bloodmagic/living_armor/jump.json
+[11Sep2021 18:39:46.229] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/health.json, path: /data/bloodmagic/living_armor/health.json
+[11Sep2021 18:39:46.230] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/experienced.json, path: /data/bloodmagic/living_armor/experienced.json
+[11Sep2021 18:39:46.231] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/sprint_attack.json, path: /data/bloodmagic/living_armor/sprint_attack.json
+[11Sep2021 18:39:46.232] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/self_sacrifice.json, path: /data/bloodmagic/living_armor/self_sacrifice.json
+[11Sep2021 18:39:46.232] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/speed.json, path: /data/bloodmagic/living_armor/speed.json
+[11Sep2021 18:39:46.233] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/poison_resist.json, path: /data/bloodmagic/living_armor/poison_resist.json
+[11Sep2021 18:39:46.234] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/fire_resist.json, path: /data/bloodmagic/living_armor/fire_resist.json
+[11Sep2021 18:39:46.235] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/digging.json, path: /data/bloodmagic/living_armor/digging.json
+[11Sep2021 18:39:46.237] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/knockback_resist.json, path: /data/bloodmagic/living_armor/knockback_resist.json
+[11Sep2021 18:39:46.297] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `white_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.297] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `orange_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.298] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `magenta_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.299] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `light_blue_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.299] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `yellow_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.300] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `lime_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.300] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `pink_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.301] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `gray_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.301] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `light_gray_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.301] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `cyan_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.302] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `purple_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.302] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `blue_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.303] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `brown_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.304] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `green_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.304] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `red_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.305] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `black_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.308] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `oak_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.308] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `spruce_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.309] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `birch_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.309] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `jungle_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.310] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `acacia_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.310] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `dark_oak_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.311] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `crimson_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.312] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `warped_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.313] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `cherry_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.313] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `umbran_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.313] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `fir_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.313] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `dead_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.314] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `magic_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.315] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `palm_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.315] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `redwood_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.316] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `willow_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.316] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `hellbark_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.317] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `jacaranda_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.317] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `mahogany_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.318] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `livingwood_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.318] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `mossy_livingwood_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.318] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `dreamwood_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.319] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `mossy_dreamwood_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.321] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `botania` for name `shimmerwood_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.349] [main/INFO] [wayoftime.bloodmagic.BloodMagic/]: Attempting to register Tile Entities
+[11Sep2021 18:39:46.385] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Block Entities registered!
+[11Sep2021 18:39:46.396] [main/INFO] [Spartan Shields/]: Registering Enchantments
+[11Sep2021 18:39:46.396] [main/INFO] [Spartan Shields/]: Registered Enchantments successfully!
+[11Sep2021 18:39:46.420] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farmingforblockheads:merchant, use EntityAttributeCreationEvent instead.
+[11Sep2021 18:39:46.452] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Entities registered!
+[11Sep2021 18:39:46.454] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.454] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[11Sep2021 18:39:46.497] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Block Entities registered!
+[11Sep2021 18:39:46.659] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Sounds registered!
+[11Sep2021 18:39:47.624] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Biomes registered!
+[11Sep2021 18:39:47.627] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Registering block placer types!
+[11Sep2021 18:39:47.633] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Decorators registered!
+[11Sep2021 18:39:47.654] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Features registered!
+[11Sep2021 18:39:47.688] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Structures registered!
+[11Sep2021 18:39:47.689] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Surface builders Registered!
+[11Sep2021 18:39:47.709] [main/INFO] [ModdingLegacy/structure_gel/Compat/]: Checking for biome dictionary registry methods in other mods.
+[11Sep2021 18:39:47.820] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[11Sep2021 18:39:47.821] [Thread-1/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[11Sep2021 18:39:47.846] [modloading-worker-10/WARN] [melonslise.subwild.SubWild/]: 
+[11Sep2021 18:39:47.847] [modloading-worker-10/WARN] [melonslise.subwild.SubWild/]: @@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[11Sep2021 18:39:47.848] [modloading-worker-10/WARN] [melonslise.subwild.SubWild/]: Yung's Better Caves Present! Enabling workaround for wall feature placements!
+[11Sep2021 18:39:47.849] [modloading-worker-10/WARN] [melonslise.subwild.SubWild/]: @@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[11Sep2021 18:39:47.857] [modloading-worker-10/WARN] [melonslise.subwild.SubWild/]: 
+[11Sep2021 18:39:47.857] [modloading-worker-10/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[11Sep2021 18:39:47.865] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for doggytalents:dog, use EntityAttributeCreationEvent instead.
+[11Sep2021 18:39:47.866] [modloading-worker-3/INFO] [com.polyvalord.extlights.Extlights/]: HELLO FROM PREINIT
+[11Sep2021 18:39:47.869] [modloading-worker-3/INFO] [com.polyvalord.extlights.Extlights/]: DIRT BLOCK >> minecraft:dirt
+[11Sep2021 18:39:47.874] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Starting version check at https://raw.githubusercontent.com/percivalalb/DoggyTalents/1.16.x/version.json
+[11Sep2021 18:39:47.882] [modloading-worker-8/INFO] [corgiaoc.byg.BYG/]: BYG: "Common Setup" Event Complete!
+[11Sep2021 18:39:47.883] [modloading-worker-9/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.5+57d5ac9) is loaded
+[11Sep2021 18:39:47.892] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TTileChangeTile
+[11Sep2021 18:39:47.894] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/INeighborTileChangePart, Side: SERVER
+[11Sep2021 18:39:47.919] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TTickableTile
+[11Sep2021 18:39:47.920] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/ITickablePart, Side: COMMON
+[11Sep2021 18:39:47.926] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TSlottedTile
+[11Sep2021 18:39:47.927] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/TSlottedPart, Side: COMMON
+[11Sep2021 18:39:47.931] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TRedstoneTile
+[11Sep2021 18:39:47.932] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/redstone/IRedstonePart, Side: COMMON
+[11Sep2021 18:39:47.947] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TPartialOcclusionTile
+[11Sep2021 18:39:47.947] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/TPartialOcclusionPart, Side: COMMON
+[11Sep2021 18:39:47.950] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TInventoryTile
+[11Sep2021 18:39:47.950] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/IInventory, Side: COMMON
+[11Sep2021 18:39:47.957] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/ISidedInventory, Side: COMMON
+[11Sep2021 18:39:47.958] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TInventoryTile
+[11Sep2021 18:39:47.958] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/IInventory, Side: COMMON
+[11Sep2021 18:39:47.959] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TInventoryTile
+[11Sep2021 18:39:47.959] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/ISidedInventory, Side: COMMON
+[11Sep2021 18:39:47.960] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TCapabilityTile
+[11Sep2021 18:39:47.961] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/ICapabilityProviderPart, Side: COMMON
+[11Sep2021 18:39:47.973] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TAnimateTickTile
+[11Sep2021 18:39:47.973] [modloading-worker-10/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/AnimateTickPart, Side: CLIENT
+[11Sep2021 18:39:48.033] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for astikorcarts:postilion, use EntityAttributeCreationEvent instead.
+[11Sep2021 18:39:48.035] [main/INFO] [Puzzles Lib/]: Loading 1 element during common setup...
+[11Sep2021 18:39:48.138] [main/INFO] [Puzzles Lib/]: Loading 1 element during server setup...
+[11Sep2021 18:39:48.149] [modloading-worker-9/INFO] [com.polyvalord.extlights.Extlights/]: Hello world from the MDK
+[11Sep2021 18:39:48.149] [modloading-worker-9/INFO] [com.polyvalord.extlights.Extlights/]: Got IMC [Hello world]
+[11Sep2021 18:39:48.159] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Attempting to register unregistered biomes to the biome dictionary. This can be disabled via config.
+[11Sep2021 18:39:48.163] [modloading-worker-13/INFO] [STDOUT/]: [com.mrh0.buildersaddition.BuildersAddition:postInit:80]: Builders Addition Initialized!
+[11Sep2021 18:39:48.317] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Found status: BETA Current: 2.1.0.0 Target: 2.0.1.10
+[11Sep2021 18:39:48.317] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[11Sep2021 18:39:48.341] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.0.0 Target: null
+[11Sep2021 18:39:48.343] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettercaves] Starting version check at https://raw.githubusercontent.com/yungnickyoung/YUNGs-Better-Caves/1.16/versions.json
+[11Sep2021 18:39:48.370] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettercaves] Found status: BETA Current: 1.16.4-1.1.2 Target: null
+[11Sep2021 18:39:48.370] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[11Sep2021 18:39:48.448] [modloading-worker-1/ERROR] [me.ichun.mods.ichunutil.common.iChunUtil/]: Error deserializing HeadInfo for net.minecraft.entity.passive.fish.PufferfishEntity
+[11Sep2021 18:39:48.448] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: java.lang.UnsupportedOperationException
+[11Sep2021 18:39:48.450] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.AbstractList.remove(Unknown Source)
+[11Sep2021 18:39:48.450] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.AbstractList$Itr.remove(Unknown Source)
+[11Sep2021 18:39:48.451] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate.checkModels(HeadInfoDelegate.java:284)
+[11Sep2021 18:39:48.451] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:673)
+[11Sep2021 18:39:48.452] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:565)
+[11Sep2021 18:39:48.452] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+[11Sep2021 18:39:48.453] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:887)
+[11Sep2021 18:39:48.453] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:852)
+[11Sep2021 18:39:48.454] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:801)
+[11Sep2021 18:39:48.454] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:773)
+[11Sep2021 18:39:48.455] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfo(HeadHandler.java:293)
+[11Sep2021 18:39:48.456] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.readHeadInfoJson(HeadHandler.java:280)
+[11Sep2021 18:39:48.457] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.scourDirectory(HeadHandler.java:239)
+[11Sep2021 18:39:48.457] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfos(HeadHandler.java:179)
+[11Sep2021 18:39:48.458] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.init(HeadHandler.java:112)
+[11Sep2021 18:39:48.458] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.hats.common.Hats.finishLoading(Hats.java:198)
+[11Sep2021 18:39:48.459] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+[11Sep2021 18:39:48.459] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+[11Sep2021 18:39:48.462] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[11Sep2021 18:39:48.462] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[11Sep2021 18:39:48.463] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120)
+[11Sep2021 18:39:48.464] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121)
+[11Sep2021 18:39:48.465] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+[11Sep2021 18:39:48.465] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source)
+[11Sep2021 18:39:48.466] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+[11Sep2021 18:39:48.466] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+[11Sep2021 18:39:48.467] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[11Sep2021 18:39:48.467] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[11Sep2021 18:39:48.508] [modloading-worker-1/ERROR] [me.ichun.mods.ichunutil.common.iChunUtil/]: Error deserializing HeadInfo for net.minecraft.entity.passive.fish.TropicalFishEntity
+[11Sep2021 18:39:48.509] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: java.lang.UnsupportedOperationException
+[11Sep2021 18:39:48.510] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.AbstractList.remove(Unknown Source)
+[11Sep2021 18:39:48.511] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.AbstractList$Itr.remove(Unknown Source)
+[11Sep2021 18:39:48.511] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate.checkModels(HeadInfoDelegate.java:284)
+[11Sep2021 18:39:48.512] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:673)
+[11Sep2021 18:39:48.512] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:565)
+[11Sep2021 18:39:48.513] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+[11Sep2021 18:39:48.513] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:887)
+[11Sep2021 18:39:48.514] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:852)
+[11Sep2021 18:39:48.514] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:801)
+[11Sep2021 18:39:48.515] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:773)
+[11Sep2021 18:39:48.515] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfo(HeadHandler.java:293)
+[11Sep2021 18:39:48.516] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.readHeadInfoJson(HeadHandler.java:280)
+[11Sep2021 18:39:48.516] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.scourDirectory(HeadHandler.java:239)
+[11Sep2021 18:39:48.516] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfos(HeadHandler.java:179)
+[11Sep2021 18:39:48.517] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.init(HeadHandler.java:112)
+[11Sep2021 18:39:48.517] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.hats.common.Hats.finishLoading(Hats.java:198)
+[11Sep2021 18:39:48.518] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+[11Sep2021 18:39:48.518] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+[11Sep2021 18:39:48.519] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[11Sep2021 18:39:48.519] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[11Sep2021 18:39:48.520] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120)
+[11Sep2021 18:39:48.520] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121)
+[11Sep2021 18:39:48.520] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+[11Sep2021 18:39:48.521] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source)
+[11Sep2021 18:39:48.521] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+[11Sep2021 18:39:48.523] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+[11Sep2021 18:39:48.524] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[11Sep2021 18:39:48.524] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[11Sep2021 18:39:48.561] [modloading-worker-1/INFO] [me.ichun.mods.ichunutil.common.iChunUtil/]: Loaded 59 HeadInfo object(s)
+[11Sep2021 18:39:48.607] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 5.4.3 Target: null
+[11Sep2021 18:39:48.607] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[11Sep2021 18:39:48.647] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: BETA Current: 1.0.3 Target: 1.0.3
+[11Sep2021 18:39:48.647] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[11Sep2021 18:39:48.958] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered biomesoplenty:grassland to structure_gel:[plains, neutral_temp]
+[11Sep2021 18:39:48.959] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:twilight_valley_hills to structure_gel:[magical, cold, dead, dry, wooded]
+[11Sep2021 18:39:48.960] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.2.0 Target: null
+[11Sep2021 18:39:48.960] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:bulbis_gardens_edge to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.960] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_piglins] Starting version check at https://maxhenkel.de/update/_piglins.json
+[11Sep2021 18:39:48.961] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:cryptic_wastes to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.962] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered biomesoplenty:cold_desert to structure_gel:[gravelly, sandy, cold, dry, snowy]
+[11Sep2021 18:39:48.963] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:ethereal_islands to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.964] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered biomesoplenty:tall_dead_forest to structure_gel:[spruce_forest, rare, cold, dead, dry, wooded, neutral_temp]
+[11Sep2021 18:39:48.964] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:purpur_peaks to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.964] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:shattered_viscal_isles to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.965] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:ethereal_clearing to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.965] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:snowy_rocky_black_beach to structure_gel:[beach, sandy, snowy]
+[11Sep2021 18:39:48.966] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:twilight_valley to structure_gel:[magical, cold, dead, dry, wooded]
+[11Sep2021 18:39:48.966] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:shattered_desert_isles to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.966] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered biomesoplenty:dense_woodland to structure_gel:[wooded, neutral_temp]
+[11Sep2021 18:39:48.967] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:ethereal_forest to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.967] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:skyris_peaks to structure_gel:[mountain, cold, coniferous_forest, large_wooded]
+[11Sep2021 18:39:48.968] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:alps to structure_gel:[snowy_mountain, humid, snowy]
+[11Sep2021 18:39:48.969] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:alpine_foothills to structure_gel:[snowy_mountain, snowy]
+[11Sep2021 18:39:48.970] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:bulbis_gardens to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.970] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:tropical_islands to structure_gel:[tropical, warm, ocean, humid, neutral_temp]
+[11Sep2021 18:39:48.971] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered biomesoplenty:grassland_clover_patch to structure_gel:[plains, neutral_temp]
+[11Sep2021 18:39:48.971] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:imparius_grove to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.973] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:withering_woods to structure_gel:[nether, dry, neutral_temp]
+[11Sep2021 18:39:48.974] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:viscal_isles to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.974] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered biomesoplenty:shroomy_wetland to structure_gel:[fungal, warm, humid, swamp, wooded, mushroom, neutral_temp]
+[11Sep2021 18:39:48.974] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:pointed_stone_forest to structure_gel:[spruce_forest, mountain, cold, wooded]
+[11Sep2021 18:39:48.975] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered biomesoplenty:woodland to structure_gel:[wooded, neutral_temp]
+[11Sep2021 18:39:48.975] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:brimstone_caverns to structure_gel:[nether, dry, neutral_temp]
+[11Sep2021 18:39:48.976] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:nightshade_forest to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.976] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:canyons to structure_gel:[mountain, warm, sandy, dry, humid, desert, hot]
+[11Sep2021 18:39:48.977] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:stone_forest to structure_gel:[spruce_forest, cold, wooded]
+[11Sep2021 18:39:48.977] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered biomesoplenty:dense_marsh to structure_gel:[warm, humid, swamp, neutral_temp]
+[11Sep2021 18:39:48.978] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:magma_wastes to structure_gel:[nether, dry, neutral_temp]
+[11Sep2021 18:39:48.978] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:imparius_clearing to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.979] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:araucaria_savanna to structure_gel:[warm, savanna, dry, hot, wooded]
+[11Sep2021 18:39:48.979] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:rose_fields to structure_gel:[plains, rare, neutral_temp]
+[11Sep2021 18:39:48.979] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:skyris_highlands_clearing to structure_gel:[mountain, cold, coniferous_forest, large_wooded]
+[11Sep2021 18:39:48.980] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:araucaria_forest to structure_gel:[warm, dry, wooded]
+[11Sep2021 18:39:48.980] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:red_spruce_taiga to structure_gel:[spruce_forest, cold, coniferous_forest, wooded, neutral_temp, large_wooded]
+[11Sep2021 18:39:48.981] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered biomesoplenty:marsh to structure_gel:[warm, humid, swamp, neutral_temp]
+[11Sep2021 18:39:48.981] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered biomesoplenty:wetland_forest to structure_gel:[warm, humid, swamp, wooded, neutral_temp]
+[11Sep2021 18:39:48.982] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:subzero_hypogeal to structure_gel:[nether, dry, neutral_temp]
+[11Sep2021 18:39:48.982] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:canyon_edge to structure_gel:[warm, sandy, dry, humid, desert, hot]
+[11Sep2021 18:39:48.982] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:crimson_gardens to structure_gel:[nether, dry, neutral_temp]
+[11Sep2021 18:39:48.983] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:shulkren_forest to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.983] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:dummy to structure_gel:[plains, neutral_temp]
+[11Sep2021 18:39:48.984] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:bog to structure_gel:[warm, cold, humid, swamp]
+[11Sep2021 18:39:48.985] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:wailing_garth to structure_gel:[nether, sandy, dry, neutral_temp]
+[11Sep2021 18:39:48.985] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:cika_woods to structure_gel:[plains, cold, coniferous_forest, wooded, neutral_temp, large_wooded]
+[11Sep2021 18:39:48.986] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:guiana_springs to structure_gel:[warm, humid, jungle, wooded, neutral_temp, large_wooded]
+[11Sep2021 18:39:48.986] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:shattered_desert to structure_gel:[dry, end, neutral_temp]
+[11Sep2021 18:39:48.987] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:weeping_mire to structure_gel:[nether, sandy, dry, neutral_temp]
+[11Sep2021 18:39:48.989] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:quartz_desert to structure_gel:[nether, sandy, dry, neutral_temp]
+[11Sep2021 18:39:48.989] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:skyris_steeps to structure_gel:[mountain, cold, coniferous_forest, large_wooded]
+[11Sep2021 18:39:48.990] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered byg:basalt_barrera to structure_gel:[beach, sandy, neutral_temp]
+[11Sep2021 18:39:48.991] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:tower
+[11Sep2021 18:39:48.991] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:bigger_dungeon
+[11Sep2021 18:39:48.992] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:leviathan
+[11Sep2021 18:39:48.992] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:snowy_temple
+[11Sep2021 18:39:48.992] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:end_ruins
+[11Sep2021 18:39:48.993] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:warped_garden
+[11Sep2021 18:39:48.993] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:soul_prison
+[11Sep2021 18:39:49.132] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Compostible Blocks Added!
+[11Sep2021 18:39:49.133] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Hoeable Blocks!
+[11Sep2021 18:39:49.136] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Flammables!
+[11Sep2021 18:39:49.138] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added strippable Blocks...
+[11Sep2021 18:39:50.574] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_piglins] Found status: UP_TO_DATE Current: 1.16.5-1.0.0 Target: null
+[11Sep2021 18:39:50.574] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Starting version check at https://github.com/sketchmacaw/macawsmods/blob/master/fences.json
+[11Sep2021 18:39:51.056] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 7 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:899) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:852) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:801) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:773) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:195) ~[?:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_91]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:139) [?:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 7 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:385) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	... 6 more
+[11Sep2021 18:39:51.058] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://maxhenkel.de/update/easy_villagers.json
+[11Sep2021 18:39:51.811] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: UP_TO_DATE Current: 1.16.5-1.0.11 Target: null
+[11Sep2021 18:39:51.812] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://maxhenkel.de/update/gravestone.json
+[11Sep2021 18:39:52.566] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: UP_TO_DATE Current: 1.16.5-1.0.6 Target: null
+[11Sep2021 18:39:52.566] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[11Sep2021 18:39:52.942] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre22 Target: 7.0.0-pre22
+[11Sep2021 18:39:52.943] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fallingtree] Starting version check at https://raw.githubusercontent.com/RakSrinaNa/FallingTree/1.16.5/update.json
+[11Sep2021 18:39:52.966] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fallingtree] Found status: OUTDATED Current: 2.11.4 Target: 2.11.5
+[11Sep2021 18:39:52.967] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Starting version check at https://version-check.covers1624.net/check/?mod=CodeChickenLib&mc=1.16.5
+[11Sep2021 18:39:54.004] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Found status: OUTDATED Current: 4.0.3.433 Target: 4.0.3.434
+[11Sep2021 18:39:54.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cb_multipart] Starting version check at https://version-check.covers1624.net/check/?mod=CBMultipart&mc=1.16.5
+[11Sep2021 18:39:54.221] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cb_multipart] Found status: UP_TO_DATE Current: 3.0.2.119 Target: null
+[11Sep2021 18:39:54.706] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11Sep2021 18:39:55.095] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11Sep2021 18:39:55.096] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11Sep2021 18:39:55.097] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11Sep2021 18:39:55.098] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11Sep2021 18:39:55.099] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11Sep2021 18:39:55.106] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Hats-1.16.5-10.3.1.jar, jei-1.16.5-7.7.1.121.jar, DoggyTalents-1.16.5-2.1.0.0.jar, abnormals_core-1.16.5-3.2.0.jar, invtweaks-1.16.2-1.0.0.jar, extraboats-1.16.5-2.1.0.jar, BetterCaves-Forge-1.16.4-1.1.2.jar, mimic-1.16.5-v1.12.jar, ForgeEndertech-1.16.5-7.2.0.0-build.0177.jar, AdFinders-1.16.5-5.0.10.0-build.0177.jar, TravelersBackpack-1.16.5-5.4.3.jar, YungsApi-1.16.4-Forge-12.jar, forge-branders-spawnermod-1.16.5-1.8.14.jar, iChunUtil-1.16.5-10.4.1.jar, forge-1.16.5-36.2.0-universal.jar, shetiphiancore-1.16-3.8.5.jar, BloodMagic-1.16.4-3.1.1-16.jar, mob_grinding_utils-1.16.5-0.4.28.jar, subwild-1.3.0.jar, easy_piglins-1.16.5-1.0.0.jar, structure_gel-1.16.5-1.7.7.jar, TConstruct-1.16.5-3.1.2.265.jar, repurposed_structures_forge-3.2.4+1.16.5.jar, BiomesOPlenty-1.16.5-13.1.0.482-universal.jar, dungeons_plus-1.16.5-1.1.5.jar, mcw-fences-1.0.0-mc1.16.5.jar, simplylight-1.16.4-1.2.0-build.11.jar, Botania-1.16.5-419.jar, astikorcarts-1.16.5-1.1.1 (1).jar, curios-forge-1.16.5-4.0.5.2.jar, SpartanShields-1.16.5-2.1.2.jar, Patchouli-1.16.4-53.1.jar, Mantle-1.16.5-1.6.123.jar, gravestone-1.16.5-1.0.6.jar, extlights-3.3.jar, multibeds-1.16-1.7.9.jar, DiagonalFences-v1.1.1-1.16.5.jar, elevatorid-1.16.5-1.7.13.jar, BetterStrongholds-1.16.4-1.2.1.jar, buildersaddition-1.16.5-20210807a.jar, cfm-7.0.0pre22-1.16.3.jar, Chisel-MC1.16.5-2.0.0-alpha.3.jar, PuzzlesLib-v1.0.10-1.16.5.jar, byg-1.3.4.jar, FallingTree-1.16.5-2.11.4.jar, chiselsandbits-0.3.4-RELEASE.jar, BetterMineshafts-Forge-1.16.4-2.0.4.jar, geckolib-forge-1.16.5-3.0.46 (1).jar, quickteleports-1.16.2-1.1.2.jar, quickhomes-1.16.3-1.2.6.jar, worldedit-mod-7.2.5-dist.jar, giacomos_exp1.3-1.16.3.jar, XPFromHarvest-1.16.3-1.2.1.jar, FarmingForBlockheads_1.16.5-7.3.1.jar, architectury-1.22.32-forge.jar, snad-1.0.9-forge.jar, CodeChickenLib-1.16.5-4.0.3.433-universal.jar, CBMultipart-1.16.5-3.0.2.119-universal.jar, torchslabmod-1.16.4_v1.6.19.jar, ElenaiDodge2-1.16.X-1.1.0.jar, mcw-windows-2.0.0-mc1.16.5.jar, AdHooks-1.16.5-6.1.7.0-build.0179.jar, mcw-doors-1.0.3-mc1.16.5.jar, easy_villagers-1.16.5-1.0.11.jar, collective-1.16.5-2.64.jar, infinitetrading_1.16.5-1.9.jar, Uppers-0.3.2.jar, WithoutARedstone-1.16.5-1.0.3.jar, NaturesCompass-1.16.5-1.9.1-forge.jar, WithoutALib-1.16.5-0.1.4.jar, ironchest-1.16.5-11.2.13.jar, Portal
+[11Sep2021 18:39:56.174] [Worker-Main-14/INFO] [com.minecraftabnormals.abnormals_core.core.AbnormalsCore/]: Loot Modification Manager has loaded 0 sets of modifiers
+[11Sep2021 18:39:56.255] [Worker-Main-14/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe ironchest:upgrades/copper_to_silver_chest_upgrade as it's serializer returned null
+[11Sep2021 18:39:56.272] [Worker-Main-14/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe ironchest:chests/iron_silver_chest as it's serializer returned null
+[11Sep2021 18:39:56.283] [Worker-Main-14/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe ironchest:upgrades/silver_to_gold_chest_upgrade as it's serializer returned null
+[11Sep2021 18:39:56.363] [Worker-Main-14/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe ironchest:chests/copper_silver_chest as it's serializer returned null
+[11Sep2021 18:39:56.370] [Worker-Main-14/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 33 recipes
+[11Sep2021 18:39:56.370] [Worker-Main-14/INFO] [com.minecraftabnormals.abnormals_core.core.AbnormalsCore/]: Advancement Modification Manager has loaded 0 sets of modifiers
+[11Sep2021 18:39:56.481] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table extlights:blocks/light_wallneon_redstone
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'extlights:light_wallneon_redstone'
+	at net.minecraft.util.JSONUtils.func_219793_a(SourceFile:127) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.util.JSONUtils.func_188172_b(SourceFile:127) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188180_i(SourceFile:135) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:55) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:40) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:151) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:129) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:86) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:74) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188174_a(SourceFile:448) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:183) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:180) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:249) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:881) ~[?:?]
+	at net.minecraft.loot.LootTableManager.lambda$apply$0(LootTableManager.java:40) ~[?:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:38) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:16) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_91]
+[11Sep2021 18:39:56.512] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table extlights:blocks/light_wallneon_creeper
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'extlights:light_wallneon_creeper'
+	at net.minecraft.util.JSONUtils.func_219793_a(SourceFile:127) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.util.JSONUtils.func_188172_b(SourceFile:127) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188180_i(SourceFile:135) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:55) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:40) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:151) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:129) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:86) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:74) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188174_a(SourceFile:448) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:183) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:180) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:249) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:881) ~[?:?]
+	at net.minecraft.loot.LootTableManager.lambda$apply$0(LootTableManager.java:40) ~[?:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:38) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:16) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_91]
+[11Sep2021 18:39:56.587] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table extlights:blocks/light_wallneon_ender
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'extlights:light_wallneon_ender'
+	at net.minecraft.util.JSONUtils.func_219793_a(SourceFile:127) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.util.JSONUtils.func_188172_b(SourceFile:127) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188180_i(SourceFile:135) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:55) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:40) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:151) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:129) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:86) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:74) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188174_a(SourceFile:448) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:183) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:180) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:249) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:881) ~[?:?]
+	at net.minecraft.loot.LootTableManager.lambda$apply$0(LootTableManager.java:40) ~[?:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:38) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:16) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_91]
+[11Sep2021 18:39:56.648] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table extlights:blocks/light_wallneon_star
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'extlights:light_wallneon_star'
+	at net.minecraft.util.JSONUtils.func_219793_a(SourceFile:127) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.util.JSONUtils.func_188172_b(SourceFile:127) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188180_i(SourceFile:135) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:55) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:40) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:151) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:129) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:86) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:74) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188174_a(SourceFile:448) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:183) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:180) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:249) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:881) ~[?:?]
+	at net.minecraft.loot.LootTableManager.lambda$apply$0(LootTableManager.java:40) ~[?:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:38) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:16) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_91]
+[11Sep2021 18:39:57.010] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table extlights:blocks/light_wallneon_bottle
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'extlights:light_wallneon_bottle'
+	at net.minecraft.util.JSONUtils.func_219793_a(SourceFile:127) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.util.JSONUtils.func_188172_b(SourceFile:127) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188180_i(SourceFile:135) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:55) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:40) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:151) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:129) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:86) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:74) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188174_a(SourceFile:448) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:183) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:180) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:249) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:881) ~[?:?]
+	at net.minecraft.loot.LootTableManager.lambda$apply$0(LootTableManager.java:40) ~[?:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:38) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:16) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_91]
+[11Sep2021 18:39:57.044] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table extlights:blocks/light_wallneon_flamingo
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'extlights:light_wallneon_flamingo'
+	at net.minecraft.util.JSONUtils.func_219793_a(SourceFile:127) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.util.JSONUtils.func_188172_b(SourceFile:127) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188180_i(SourceFile:135) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:55) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:40) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:151) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:129) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:86) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:74) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188174_a(SourceFile:448) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:183) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:180) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:249) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:881) ~[?:?]
+	at net.minecraft.loot.LootTableManager.lambda$apply$0(LootTableManager.java:40) ~[?:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:38) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:16) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_91]
+[11Sep2021 18:39:57.176] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table extlights:blocks/light_wallneon_steak
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'extlights:light_wallneon_steak'
+	at net.minecraft.util.JSONUtils.func_219793_a(SourceFile:127) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.util.JSONUtils.func_188172_b(SourceFile:127) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188180_i(SourceFile:135) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:55) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:40) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:151) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:129) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:86) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:74) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188174_a(SourceFile:448) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:183) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:180) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:249) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:881) ~[?:?]
+	at net.minecraft.loot.LootTableManager.lambda$apply$0(LootTableManager.java:40) ~[?:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:38) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:16) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_91]
+[11Sep2021 18:39:57.185] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table extlights:blocks/light_wallneon_diamond
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'extlights:light_wallneon_diamond'
+	at net.minecraft.util.JSONUtils.func_219793_a(SourceFile:127) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.util.JSONUtils.func_188172_b(SourceFile:127) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188180_i(SourceFile:135) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:55) ~[?:?]
+	at net.minecraft.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:40) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:151) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:129) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:86) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:74) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188174_a(SourceFile:448) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:183) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:180) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:249) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:881) ~[?:?]
+	at net.minecraft.loot.LootTableManager.lambda$apply$0(LootTableManager.java:40) ~[?:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:38) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:16) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_91]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_91]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_91]
+[11Sep2021 18:39:57.366] [Worker-Main-14/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3335 advancements
+[11Sep2021 18:39:57.425] [Worker-Main-14/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: 21 materials loaded
+[11Sep2021 18:39:57.458] [Worker-Main-14/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 81 stats loaded for 27 materials
+[11Sep2021 18:40:07.093] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[11Sep2021 18:40:07.093] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[11Sep2021 18:40:07.094] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[11Sep2021 18:40:07.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[11Sep2021 18:40:07.127] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[11Sep2021 18:40:07.132] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[11Sep2021 18:40:07.484] [Server thread/INFO] [me.ichun.mods.hats.common.Hats/]: Allocated Hat Pools.
+[11Sep2021 18:40:07.517] [Server thread/INFO] [spawnermod/]: Reading config values from file.
+[11Sep2021 18:40:07.566] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "Jusrin"
+[11Sep2021 18:40:07.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[11Sep2021 18:40:08.517] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[11Sep2021 18:40:08.518] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[11Sep2021 18:40:08.765] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[11Sep2021 18:40:08.904] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1187 ms
+[11Sep2021 18:40:08.905] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.429s)! For help, type "help"
+[11Sep2021 18:40:08.940] [Server thread/INFO] [com.polyvalord.extlights.Extlights/]: HELLO from server starting
+[11Sep2021 18:40:09.446] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@292e1f4d]
+[11Sep2021 18:40:09.869] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[11Sep2021 18:40:16.953] [Netty Server IO #2/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[11Sep2021 18:40:17.693] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Justinwl is ca852ceb-090f-48ef-b5c0-5918e838847a
+[11Sep2021 18:40:24.226] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4b976e2
+[11Sep2021 18:40:24.263] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Justinwl[/68.203.99.229:64239] logged in with entity id 184 at (375.12675213041473, 119.0, 778.1142913867691)
+[11Sep2021 18:40:24.322] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Justinwl joined the game
+[11Sep2021 18:42:32.753] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Justinwl: Set own game mode to Creative Mode]
+[11Sep2021 18:48:02.777] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Justinwl: Set the time to 1000]
+[11Sep2021 18:48:05.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Justinwl: Set the weather to clear]
+[11Sep2021 18:48:14.766] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Justinwl: Set own game mode to Survival Mode]
